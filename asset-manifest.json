@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/temperature-control-app/static/css/main.dd2a84e2.css",
+    "main.js": "/temperature-control-app/static/js/main.1e8d713d.js",
+    "index.html": "/temperature-control-app/index.html",
+    "main.dd2a84e2.css.map": "/temperature-control-app/static/css/main.dd2a84e2.css.map",
+    "main.1e8d713d.js.map": "/temperature-control-app/static/js/main.1e8d713d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dd2a84e2.css",
+    "static/js/main.1e8d713d.js"
+  ]
+}
