@@ -51,6 +51,7 @@
     justify-content: center;
     align-items: center;
     transition: background-color .25s ease;
+    margin-top: 100px;
 }
 
 /* Button Styles */
@@ -58,4 +59,92 @@
 .buttons {
   display: flex;
   justify-content: center;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+/* Warmer Button */
+
+.buttonwarm{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+.buttonwarm span{
+  position: relative;
+  z-index: 2;
+}
+
+.buttonwarm:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #ff003b;
+  transition: all .35s;
+}
+
+.buttonwarm:hover{
+  color: white;
+}
+
+.buttonwarm:hover:after{
+  width: 100%;
+}
+
+/*  Colder Button  */
+
+.buttoncold{
+  display: block;
+  width: 200px;
+  height: 40px;
+  line-height: 40px;
+  font-size: 18px;
+  font-family: sans-serif;
+  text-decoration: none;
+  color: #333;
+  border: 2px solid #333;
+  letter-spacing: 2px;
+  text-align: center;
+  position: relative;
+  transition: all .35s;
+}
+
+.buttoncold span{
+  position: relative;
+  z-index: 2;
+}
+
+.buttoncold:after{
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: #0000FF;
+  transition: all .35s;
+}
+
+.buttoncold:hover{
+  color: white;
+}
+
+.buttoncold:hover:after{
+  width: 100%;
 }

@@ -21,16 +21,18 @@ function App() {
    ];
 
   const [temp, setTemp] = useState(0);
-  const [color, setColor] = useState(0);
+  const [color, setColor] = useState(7);
 
   const decrease = () => {
     setTemp(temp - 1);
+
+    setColor((color + 1) % colors.length);
   };
 
   const increase = () => {
     setTemp(temp + 1);
 
-    setColor((color + 1) % colors.length);
+    setColor((color - 1) % colors.length);
     // const newColor = getRandomColor();
     // setColor(newColor);
   };
@@ -67,8 +69,8 @@ function App() {
         <h1>{temp}&#8451;</h1>
       </div>
       <div className={styles.buttons}>
-        <button onClick={decrease}>Colder</button>
-        <button onClick={() => { increase();}}>Warmer</button>
+        <button className={styles.buttoncold} onClick={decrease}>Colder</button>
+        <button className={styles.buttonwarm} onClick={() => { increase();}}>Warmer</button>
       </div>
     </div>
   );
