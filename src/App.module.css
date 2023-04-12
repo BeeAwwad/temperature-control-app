@@ -43,11 +43,19 @@
 /* Styles for the div */
 
 .backshape {
-  background: lightblue;
+  /* background: lightblue; */
     border-radius: 50%;
     width: 200px;
     height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
+    transition: background-color .25s ease;
+}
+
+/* Button Styles */
+
+.buttons {
+  display: flex;
+  justify-content: center;
 }
