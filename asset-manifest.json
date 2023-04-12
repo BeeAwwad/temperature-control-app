@@ -1,13 +1,13 @@
 {
   "files": {
-    "main.css": "/temperature-control-app/static/css/main.1f3dfc7c.css",
-    "main.js": "/temperature-control-app/static/js/main.a364fc80.js",
+    "main.css": "/temperature-control-app/static/css/main.dea9fb4d.css",
+    "main.js": "/temperature-control-app/static/js/main.0fd25b3b.js",
     "index.html": "/temperature-control-app/index.html",
-    "main.1f3dfc7c.css.map": "/temperature-control-app/static/css/main.1f3dfc7c.css.map",
-    "main.a364fc80.js.map": "/temperature-control-app/static/js/main.a364fc80.js.map"
+    "main.dea9fb4d.css.map": "/temperature-control-app/static/css/main.dea9fb4d.css.map",
+    "main.0fd25b3b.js.map": "/temperature-control-app/static/js/main.0fd25b3b.js.map"
   },
   "entrypoints": [
-    "static/css/main.1f3dfc7c.css",
-    "static/js/main.a364fc80.js"
+    "static/css/main.dea9fb4d.css",
+    "static/js/main.0fd25b3b.js"
   ]
 }
