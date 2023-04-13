@@ -27,7 +27,7 @@ function App() {
     setTemp(temp - 1);
 
     if (color === colors.length - 1) {
-      // Stop changing the color when the first item in the array is reached
+      // Stop changing the color when the last item in the array is reached
       setColor(colors.length - 1);
     } else {
       setColor((color + 1) % colors.length);
