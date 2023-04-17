@@ -26,22 +26,48 @@ function App() {
   const decrease = () => {
     setTemp(temp - 1);
 
-    if (color === colors.length - 1) {
-      // Stop changing the color when the last item in the array is reached
-      setColor(colors.length - 1);
-    } else {
-      setColor((color + 1) % colors.length);
+    if (temp === 0) {
+      setColor(7);
+    }else if (temp === 1) {
+      setColor(8);
+    }else if (temp === 2) {
+      setColor(9);
+    }else if (temp === 3) {
+      setColor(10);
+    }else if (temp === 4) {
+      setColor(11);
+    }else if (temp === 5) {
+      setColor(12);
+    }else if (temp === 6) {
+      setColor(13);
+    }else if (temp === 7) {
+      setColor(14);
+    }else {
+      setColor(14);
     }
   };
 
   const increase = () => {
     setTemp(temp + 1);
 
-    if (color === 0) {
-      // Stop changing the color when the first item in the array is reached
+    if (temp === 0) {
+      setColor(7);
+    }else if (temp === -1) {
+      setColor(6);
+    }else if (temp === -2) {
+      setColor(5);
+    }else if (temp === -3) {
+      setColor(4);
+    }else if (temp === -4) {
+      setColor(3);
+    }else if (temp === -5) {
+      setColor(2);
+    }else if (temp === -6) {
+      setColor(1);
+    }else if (temp === -7) {
       setColor(0);
-    } else {
-      setColor((color - 1) % colors.length);
+    }else {
+      setColor(0);
     }
   };
  
