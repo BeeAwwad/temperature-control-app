@@ -28,6 +28,20 @@ function App() {
 
     if (temp === 0) {
       setColor(7);
+    }else if (temp === 1) {
+      setColor(6);
+    }else if (temp === 2) {
+      setColor(5);
+    }else if (temp === 3) {
+      setColor(4);
+    }else if (temp === 4) {
+      setColor(3);
+    }else if (temp === 5) {
+      setColor(2);
+    }else if (temp === 6) {
+      setColor(1);
+    }else if (temp >= 7) {
+      setColor(0);
     }else if (temp === -1) {
       setColor(8);
     }else if (temp === -2) {
@@ -64,7 +78,24 @@ function App() {
       setColor(1);
     }else if (temp >= 7) {
       setColor(0);
+    }else if (temp === 0) {
+      setColor(7);
+    }else if (temp === -1) {
+      setColor(8);
+    }else if (temp === -2) {
+      setColor(9);
+    }else if (temp === -3) {
+      setColor(10);
+    }else if (temp === -4) {
+      setColor(11);
+    }else if (temp === -5) {
+      setColor(12);
+    }else if (temp === -6) {
+      setColor(13);
+    }else if (temp <= -7) {
+      setColor(14);
     }
+    
   };
  
 
